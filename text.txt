@@ -1,0 +1,2 @@
+promise:
+use featch method.
