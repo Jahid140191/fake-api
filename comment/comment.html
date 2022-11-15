@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="comment.css">
+</head>
+<body>
+    <div class="container">
+        <section class="header-sec">
+            <img src="../pic/logo.png" alt="logo" height="100%">
+            <div class="link-sec">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../photo/photo.html">Photos</a></li>
+                    <li><a href="../post/post.html">Posts</a></li>
+                    <li><a href="../todo/todo.html">Todos</a></li>
+                    <li><a href="../user/user.html">Users</a></li>
+                    <li><a href="../album/album.html">Albums</a></li>
+                    <li><a href="../comment/comment.html">Comment</a></li>
+                </ul>
+            </div>
+          </section>
+
+        <section class="img-sec">
+            <img src="../pic/bg1.jpg" alt="bg-pic">
+        </section>
+
+
+
+        <section class="text-sec">
+            <h2>Comments:</h2>
+            <p>If You Want To See The Data Of The Comments,<br>Then Click On The Button Below.</p>
+
+            <button onclick="getResult()">Show Comments Data</button>
+        </section>
+
+
+        <section class="output">
+            <div class="display-text">
+                <p>Output:</p>
+            </div>
+            <div class="display">
+                <p id="display"></p>
+            </div>
+        </section>
+    </div> 
+
+    <script src="comment.js"></script>
+</body>
+</html>

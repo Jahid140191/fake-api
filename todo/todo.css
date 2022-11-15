@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+    background-color: #b9b9b9;
+}
+.container{
+    width:80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.header-sec{
+ height: 60px;
+ background-color: #fff;
+ display: flex;
+}
+.header-sec img{
+    margin-left: 56px;
+}
+.header-sec ul{
+    list-style: none;
+    display: flex;
+}
+.header-sec ul a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.header-sec .link-sec{
+    
+    margin-left: 309px;
+    margin-top: 6px;
+}
+.header-sec ul li a:hover{
+    color:#8c8c8c;
+}
+
+
+.img-sec img{
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.img-sec{
+    position: relative;
+    width: 100%;
+    height: 385Px;
+}
+.img-sec::after{
+    content:'';
+    background-color: #0000009e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+}
+.text-sec{
+    color: #cecece;
+    position: absolute;
+    top: 178px;
+    left: 202px;
+    font-size: 33px;
+}
+.text-sec p{
+    font-size: 19px;
+    margin-top: -25px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.text-sec button{
+    background-color: #0010ffb5;
+    height: 45px;
+    width: 159px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: 36px;
+    margin-left: 4px;
+}
+.text-sec button:hover{
+    background-color: #0010ff;
+    /* border-color:black; */
+}
+
+
+
+.output{
+
+}
+.output .display-text{
+    
+    background: #00ffaba8;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+.output .display-text p{
+    font-size: 25px;
+    display: inline-block;
+    line-height: 1px;
+    font-weight: bold;
+    color: black;
+}
+
+.output .display{
+    background: white;
+    width: 80%;
+    height: 450px;
+    position: absolute;
+}
+.output .display p{
+    margin-left: 14px;
+    background: ;
+    width: 98%;
+}
